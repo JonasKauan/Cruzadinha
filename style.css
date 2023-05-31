@@ -1,0 +1,43 @@
+#div_jogo{
+    display: flex;
+    justify-content: center;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    display: flex;
+}
+
+.quadrado{
+    outline: none;
+    text-transform: uppercase;
+    margin: 1px;
+    padding: 5px;
+    border: solid black 2px;
+    width: 30px;
+    text-align: center;
+}
+
+#input_especial::placeholder{
+    font-size: 9.5px;
+}
+
+.espaco{
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    height: 17px;
+    border: none;
+}
+
+.correta{
+    border: solid green 2px;
+}
+
+.errada{
+    border: solid red 2px;
+}
